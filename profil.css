@@ -1,0 +1,140 @@
+/*My profile website CSS*/
+.LogIn-Text {
+    position: absolute;
+    top: 15%;
+    left: 46.5%;
+    font-family: Helvetica;
+}
+.SignUp-Text {
+    position: absolute;
+    top: 40%;
+    left: 46.5%;
+    font-family: Helvetica;
+}
+.text-Email-LogIn {
+    position: absolute;
+    top: 24%;
+    left: 43.8%;
+    background-color: rgb(161, 204, 170);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: none;
+}
+.text-Email-LogIn:hover {
+    opacity: 0.7;
+}
+.text-Password-LogIn {
+    position: absolute;
+    top: 29.5%;
+    left: 43.8%;
+    background-color: rgb(161, 204, 170);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: none;
+}
+.text-Password-LogIn:hover {
+    opacity: 0.7;
+}
+.PasswordForgotten-Text {
+    position: absolute;
+    top: 36.1%;
+    left: 40.8%;
+    color: gray;
+    font-family: Helvetica;
+}
+.myDiv {
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+    box-shadow: 3px 3px 20px rgb(49, 49, 49);
+}
+.hereSource {
+    position: absolute;
+    top: 37.8%;
+    left: 58.9%;
+    color: blue;
+    font-family: Helvetica;
+}
+.hereSource:active {
+    color: red;
+}
+.hereSource:hover {
+    opacity: 0.7;
+}
+.text-Email-SignUp {
+    position: absolute;
+    top: 48%;
+    left: 43.8%;
+    border-radius: 25px;
+    background-color: rgb(161, 204, 170);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: none;
+}
+.text-Email-SignUp:hover {
+    opacity: 0.7;
+}
+.text-Password-SignUp {
+    position: absolute;
+    top: 53%;
+    left: 43.8%;
+    border-radius: 25px;
+    background-color: rgb(161, 204, 170);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: none;
+}
+.text-Password-SignUp:hover {
+    opacity: 0.7;
+}
+
+.LogIn-Button {
+    position: absolute;
+    top: 32.5%;
+    left: 45.5%;
+    background-color: rgb(110, 110, 240);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: Helvetica;
+}
+.LogIn-Button:hover {
+    opacity: 0.7;
+}
+.LogIn-Button:active {
+    background-color: blue;
+}
+.SignUp-Button {
+    position: absolute;
+    top: 56%;
+    left: 45.5%;
+    background-color: rgb(110, 110, 240);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: Helvetica;
+}
+.SignUp-Button:hover {
+    opacity: 0.7;
+}
+.SignUp-Button:active {
+    background-color: blue;
+}
+body {
+    background-color: rgb(218, 218, 218);
+}

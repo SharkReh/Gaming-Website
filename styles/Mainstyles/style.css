@@ -1,0 +1,971 @@
+.MainHeader {
+  width: 1700px;
+  height: 139px;
+  background-color: rgb(26, 32, 49);
+}
+.MainHeader .Logo {
+  width: 150px;
+  border-radius: 50px;
+  float: left;
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+}
+.MainHeader .profil-text {
+  position: absolute;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Helvetica;
+  border-color: blueviolet;
+  top: 2%;
+  left: 85%;
+  font-size: 17px;
+  padding: 10px;
+}
+.MainHeader .profil-text:hover {
+  background-color: blueviolet;
+  transition: 0.3s;
+}
+.MainHeader .header-text {
+  position: absolute;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Helvetica;
+  border-color: blueviolet;
+  padding: 4px;
+  font-size: small;
+  cursor: pointer;
+}
+.MainHeader .header-text:hover {
+  background-color: blueviolet;
+}
+.MainHeader .blog-text {
+  position: absolute;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Helvetica;
+  border-color: blueviolet;
+  top: 9%;
+  left: 80%;
+  padding: 7px;
+}
+.MainHeader .blog-text:hover {
+  background-color: blueviolet;
+}
+.MainHeader .heart-text {
+  position: absolute;
+  top: 5%;
+  left: 67.75%;
+}
+.MainHeader .headset-text {
+  position: absolute;
+  top: 5%;
+  left: 38%;
+}
+.MainHeader .shoppingcart-text {
+  position: absolute;
+  top: 5%;
+  left: 56.5%;
+}
+.MainHeader .icon-searchbar {
+  position: absolute;
+  top: 4%;
+  left: 20%;
+  font-size: 20px;
+  color: white;
+  background-color: orangered;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 9px;
+  cursor: pointer;
+  border-color: orangered;
+}
+.MainHeader .text-search {
+  width: 0%;
+  padding: 0px;
+  padding-left: 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.5s;
+}
+.MainHeader .text-search:focus {
+  outline: none;
+  text-align: center;
+}
+.MainHeader .SearchbarSearchText {
+  background-color: transparent;
+  border-color: transparent;
+}
+.MainHeader .SearchbarSearchText #SearchbarSearchIcon {
+  position: absolute;
+  top: 5.2%;
+  left: 10.8%;
+  font-size: 0px;
+  color: white;
+  transition: 0.2s;
+}
+.MainHeader .xmark {
+  position: absolute;
+  top: 4.59%;
+  left: 31%;
+  font-size: 0px;
+  color: red;
+  cursor: pointer;
+}
+.MainHeader ::-moz-placeholder {
+  padding-left: 32px;
+  color: white;
+}
+.MainHeader ::placeholder {
+  padding-left: 32px;
+  color: white;
+}
+.MainHeader input {
+  all: unset;
+  font: 16px system-ui;
+  height: 2%;
+  width: 2%;
+  padding: 6px 10px;
+}
+.MainHeader .header-icon {
+  top: 1.4%;
+  font-size: 30px;
+  color: blueviolet;
+}
+.MainHeader .icon-headset {
+  position: absolute;
+  left: 39%;
+  font-size: 35px;
+}
+.MainHeader .icon-headset:hover {
+  font-size: 40px;
+  transition: 100ms;
+  color: red;
+}
+.MainHeader .icon-headset:not(:hover) {
+  font-size: 35px;
+  transition: 100ms;
+}
+.MainHeader .icon-shoppingcart {
+  position: absolute;
+  left: 59%;
+}
+.MainHeader .icon-shoppingcart:hover {
+  font-size: 35px;
+  transition: 100ms;
+  color: rgb(197, 133, 13);
+}
+.MainHeader .icon-shoppingcart:not(:hover) {
+  font-size: 30px;
+  transition: 100ms;
+}
+.MainHeader .icon-heart {
+  position: absolute;
+  left: 69%;
+}
+.MainHeader .icon-heart:hover {
+  font-size: 35px;
+  transition: 100ms;
+  color: red;
+}
+.MainHeader .icon-heart:not(:hover) {
+  font-size: 30px;
+  transition: 100ms;
+}
+
+#Links-Sidebar {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  font-size: 40px;
+  font-family: Helvetica;
+}
+#Links-Sidebar .about-sidecar:hover {
+  border-radius: 10px;
+  background-color: chocolate;
+  transition: 0.5s;
+  width: 491.5px;
+  cursor: pointer;
+}
+#Links-Sidebar .offers-sidecar:hover {
+  border-radius: 10px;
+  background-color: chocolate;
+  transition: 0.5s;
+  width: 491.5px;
+  cursor: pointer;
+}
+#Links-Sidebar .contact-sidecar:hover {
+  border-radius: 10px;
+  background-color: chocolate;
+  transition: 0.5s;
+  width: 491.5px;
+  cursor: pointer;
+}
+#Links-Sidebar .jobs-sidebar:hover {
+  border-radius: 10px;
+  background-color: chocolate;
+  transition: 0.5s;
+  width: 491.5px;
+  cursor: pointer;
+}
+#Links-Sidebar .pro-and-ser-sidecar:hover {
+  border-radius: 10px;
+  background-color: chocolate;
+  transition: 0.5s;
+  width: 491.5px;
+  cursor: pointer;
+}
+#Links-Sidebar .Categories-Icons-Sidebar {
+  margin-right: 20px;
+  margin-left: 10px;
+  color: rgb(0, 30, 128);
+}
+
+.Categories-Sidebar {
+  margin-top: 14%;
+}
+.Categories-Sidebar::after {
+  content: "";
+  display: block;
+  width: 50px;
+  padding-top: 2px;
+  border-bottom: 4px solid blue;
+}
+.Categories-Sidebar:hover::after {
+  width: 150px;
+  transition: 0.4s;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1%;
+  left: 91%;
+  font-size: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.close-btn:hover {
+  transition: 0.2s;
+  font-size: 55px;
+  color: white;
+}
+
+#MySidebar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  background: blueviolet;
+  transition: 0.3s;
+  display: block;
+  z-index: 10;
+  overflow-x: hidden;
+  /*Disable horizontal scroll*/
+}
+
+.Social-Media-Sidebar {
+  position: absolute;
+  top: 78%;
+  left: 15%;
+  font-size: 30px;
+}
+.Social-Media-Sidebar .Social-Medias {
+  margin-right: 110px;
+}
+.Social-Media-Sidebar .facebook:hover {
+  color: rgb(24, 119, 242);
+}
+.Social-Media-Sidebar .discord:hover {
+  color: rgb(114, 137, 217);
+}
+.Social-Media-Sidebar .twitter:hover {
+  color: rgb(29, 161, 242);
+}
+.Social-Media-Sidebar .instagram:hover {
+  color: rgb(193, 53, 132);
+}
+.Social-Media-Sidebar .youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+.dark-and-light-mode {
+  position: absolute;
+  width: 75px;
+  height: 45px;
+  top: 90%;
+  left: 35%;
+  border-radius: 50%;
+}
+.dark-and-light-mode .dark-light-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(80, 80, 80);
+  border-radius: 34px;
+  transition: 0.5s;
+}
+.dark-and-light-mode .dark-light-slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 3px;
+  right: 4px;
+  bottom: 7.5px;
+  background-color: rgb(231, 212, 212);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.dark-and-light-mode input {
+  display: none;
+}
+.dark-and-light-mode input:checked + .dark-light-slider {
+  background-color: rgb(170, 61, 28);
+}
+.dark-and-light-mode input:checked + .dark-light-slider:before {
+  transform: translateX(35px);
+  background-color: black;
+}
+
+.moon {
+  position: absolute;
+  top: 90.5%;
+  left: 45%;
+  font-size: 35px;
+}
+
+.sun {
+  position: absolute;
+  font-size: 35px;
+  top: 90.5%;
+  left: 29%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  color: black;
+  margin: 0px;
+}
+
+.dark-mode {
+  background-color: rgb(37, 35, 35);
+  color: white;
+}
+
+.position-text {
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.icon-bars {
+  position: fixed;
+  top: 2%;
+  left: 49%;
+  transform: translate(-50%, 0%);
+  color: blueviolet;
+  font-size: 30px;
+  cursor: pointer;
+}
+.icon-bars:hover {
+  font-size: 35px;
+}
+.icon-bars:not(:hover) {
+  transition: 100ms;
+  font-size: 30px;
+}
+
+hr {
+  width: 110%;
+  height: 5px;
+  position: absolute;
+  top: 3%;
+  left: -2%;
+  margin-top: 110px;
+  box-shadow: 10px 10px 5px rgba(143, 140, 140, 0.45);
+  color: transparent;
+}
+
+.MarketingText2 {
+  position: absolute;
+  top: 79%;
+  left: 45%;
+}
+
+.Table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.Marketingtexts-3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  top: 85%;
+  font-size: 15px;
+}
+
+.MarketingText31 {
+  position: absolute;
+  left: 25%;
+}
+
+.MarketingText32 {
+  position: absolute;
+  left: 45%;
+}
+
+.MarketingText33 {
+  position: absolute;
+  left: 65%;
+}
+
+.MarketingIcons {
+  font-size: 32px;
+  color: blueviolet;
+}
+.MarketingIcons .gamepad {
+  position: absolute;
+  top: 85.8%;
+  left: 21.8%;
+}
+.MarketingIcons .handshake {
+  position: absolute;
+  top: 85.8%;
+  left: 41.8%;
+}
+.MarketingIcons .thumbsUp {
+  position: absolute;
+  top: 85.2%;
+  left: 62.5%;
+}
+
+.MC {
+  width: 220px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  cursor: pointer;
+}
+.MC:hover {
+  width: 245px;
+  transition: 0.3s;
+}
+
+.Product {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Helvetica;
+}
+
+.ProductName {
+  position: absolute;
+  top: 31.5%;
+  left: 20%;
+  padding-right: 10px;
+  border-right: 1.5px solid black;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.Price {
+  position: absolute;
+  top: 31.5%;
+  left: 31%;
+  font-family: Helvetica;
+}
+
+.xbox {
+  position: absolute;
+  top: 33.1%;
+  left: 25.5%;
+  font-size: 20px;
+}
+
+.windows {
+  position: absolute;
+  top: 33.1%;
+  left: 27.5%;
+  font-size: 20px;
+}
+
+.ForCart {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.ForCart:hover {
+  background-color: orange;
+  transition: 0.2s;
+}
+
+#CartButton {
+  position: absolute;
+  top: 36.5%;
+  left: 25%;
+  width: 8.5%;
+  height: 3.5%;
+}
+
+#WiButton {
+  position: absolute;
+  top: 36.5%;
+  left: 19.9%;
+  width: 2.3%;
+  height: 3.5%;
+}
+#WiButton:hover {
+  background-color: red;
+  transition: 0.2s;
+}
+
+.ForDesktop {
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  display: flex;
+  font-family: Helvetica;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid;
+  width: 7%;
+  height: 3%;
+  padding-left: 15px;
+  border-radius: 25px;
+  background: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.ForDesktop:hover {
+  height: 4%;
+  transition: 0.2s;
+}
+
+#SidebarForGames {
+  height: 0%;
+  width: 0px;
+  position: fixed;
+  top: 22.5%;
+  left: 49%;
+  border-radius: 25px;
+  background: transparent;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  overflow-x: hidden;
+  /*Disable horizontal scroll*/
+  font-size: 19px;
+  text-align: center;
+}
+#SidebarForGames .chevron-up {
+  position: absolute;
+  top: 1%;
+  left: 43%;
+  font-size: 25px;
+  cursor: pointer;
+}
+#SidebarForGames .chevron-up:hover {
+  top: 0%;
+  transition: 0.1s;
+}
+#SidebarForGames .Icon-Playstation {
+  position: absolute;
+  top: 50.9%;
+  left: 8%;
+  color: blue;
+}
+#SidebarForGames .Icon-Xbox {
+  position: absolute;
+  top: 66.5%;
+  left: 9%;
+  color: green;
+}
+#SidebarForGames .Icon-Nintendo {
+  position: absolute;
+  top: 82%;
+  left: 11%;
+  color: red;
+}
+#SidebarForGames .Icon-Steam {
+  position: absolute;
+  top: 35.9%;
+  left: 9%;
+  color: darkblue;
+}
+#SidebarForGames .add-space {
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  top: 10px;
+  width: 180px;
+  height: 50px;
+  left: 5px;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: blueviolet;
+  color: white;
+  font-family: Helvetica;
+}
+#SidebarForGames .ForSidebarGames {
+  border: 1px solid;
+  background-color: rgb(146, 190, 197);
+  border-radius: 25px;
+  width: 165px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: Helvetica;
+}
+#SidebarForGames .ForSidebarGames:hover {
+  background: blueviolet;
+  color: white;
+}
+
+.chevron-down {
+  position: absolute;
+  top: 23%;
+  left: 81%;
+}
+
+.Counter1 {
+  font-size: 0px;
+  font-family: Helvetica;
+  border: 1px solid;
+  border-radius: 0px;
+  padding: 0 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+#WiCounter {
+  position: absolute;
+  top: 1.4%;
+  left: 71%;
+}
+
+#CartCounter {
+  position: absolute;
+  top: 1.4%;
+  left: 61%;
+}
+
+.position-text2 {
+  position: absolute;
+  top: 92%;
+  margin: 25px;
+}
+
+.angel-down {
+  display: inline;
+  position: absolute;
+  top: 25.5%;
+  left: 58%;
+  font-size: 40px;
+  color: rgb(45, 10, 139);
+}
+
+.full {
+  transform: rotate(180deg);
+}
+
+.Subtheme {
+  font-size: 20px;
+  display: none;
+}
+
+.open {
+  display: inline;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 20px;
+}
+.open::after {
+  content: "";
+  display: block;
+  width: 80px;
+  padding-top: 2px;
+  border-bottom: 4px solid blue;
+}
+.open:hover::after {
+  width: 150px;
+  transition: 0.4s;
+}
+
+#ForSubtheme {
+  margin-left: 290px;
+}
+
+.SupportDown {
+  top: 64%;
+  left: 37%;
+}
+
+.fullSupport {
+  transform: rotate(180deg);
+}
+
+.openSupport {
+  display: inline;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 20px;
+}
+.openSupport::after {
+  content: "";
+  display: block;
+  width: 50px;
+  padding-top: 2px;
+  border-bottom: 4px solid blue;
+}
+.openSupport:hover::after {
+  width: 100px;
+  transition: 0.4s;
+}
+
+#Support-Subtheme2 {
+  margin-left: 170px;
+}
+
+#scroll-up {
+  display: none;
+  position: fixed;
+  top: 95%;
+  left: 95%;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+  box-shadow: 1px 1px 35px rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  z-index: 3;
+}
+#scroll-up:hover {
+  background-color: orangered;
+}
+#scroll-up .sort-up {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+Footer {
+  height: 200px;
+  width: 2000px;
+  background-color: rgb(52, 52, 52);
+  position: absolute;
+  top: 150%;
+  left: 0%;
+}
+
+.Copyright {
+  border-left: 1px solid;
+  padding-left: 19px;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+  font-family: Helvetica;
+}
+
+.Policy {
+  border-left: 1px solid;
+  padding-left: 31px;
+  position: absolute;
+  top: 75%;
+  left: 37%;
+  cursor: pointer;
+  font-family: Helvetica;
+}
+.Policy:hover {
+  color: blueviolet;
+  border-color: black;
+}
+
+.Ter-Con {
+  position: absolute;
+  top: 75%;
+  left: 28%;
+  cursor: pointer;
+  font-family: Helvetica;
+}
+.Ter-Con:hover {
+  color: blueviolet;
+}
+
+.FollowUs {
+  position: absolute;
+  left: 63%;
+  font-family: Helvetica;
+  font-size: 19px;
+}
+
+.Footer-Social-Media {
+  position: absolute;
+  top: 8%;
+  font-size: 19px;
+  cursor: pointer;
+  font-size: 27px;
+  color: rgb(100, 100, 187);
+}
+
+.Footer-facebook {
+  left: 68%;
+}
+.Footer-facebook:hover {
+  color: rgb(24, 119, 242);
+}
+
+.Footer-discord {
+  left: 70.5%;
+}
+.Footer-discord:hover {
+  color: rgb(114, 137, 217);
+}
+
+.Footer-twitter {
+  left: 73.5%;
+}
+.Footer-twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.Footer-instagram {
+  left: 78.9%;
+}
+.Footer-instagram:hover {
+  color: rgb(193, 53, 132);
+}
+
+.Footer-youtube {
+  left: 76%;
+}
+.Footer-youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+.Newsletter {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  font-family: Helvetica;
+  font-size: 19px;
+}
+
+#Newsletter-Email {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  border-radius: 10px;
+  width: 230px;
+  height: 32px;
+  font-size: 19px;
+  background-color: black;
+  border: 1px solid;
+  border-color: white;
+  padding-left: 10px;
+  outline: none;
+}
+#Newsletter-Email:focus {
+  color: white;
+}
+
+::-moz-placeholder {
+  font-family: Helvetica;
+  color: rgb(145, 138, 138);
+  font-size: 19px;
+}
+
+::placeholder {
+  font-family: Helvetica;
+  color: rgb(145, 138, 138);
+  font-size: 19px;
+}
+
+.JoinUsEmail {
+  position: absolute;
+  top: 39.1%;
+  left: 14%;
+  cursor: pointer;
+  color: white;
+  font-size: 19px;
+}
+.JoinUsEmail:hover {
+  left: 14.1%;
+  transition: 0.5s;
+}
+
+.Button-Newsletter {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#Language-Container {
+  font-size: 23px;
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#ForLanguage-Container {
+  display: none;
+}
+
+#ForLanguage-Container.openForLanguage {
+  display: block;
+  position: absolute;
+  top: 31%;
+  left: 65%;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#angles-up {
+  padding-right: 14px;
+}
+
+#angles-up.openAnglesUp {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,162 @@
+@mixin Sidebar($width) {
+  border-radius: 10px;
+  background-color: chocolate;
+  transition: 0.5s;
+  width: $width;
+  cursor: pointer;
+}
+#Links-Sidebar {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  font-size: 40px;
+  font-family: Helvetica;
+  .about-sidecar:hover {
+    @include Sidebar(491.5px);
+  }
+  .offers-sidecar:hover {
+    @include Sidebar(491.5px);
+  }
+  .contact-sidecar:hover {
+    @include Sidebar(491.5px);
+  }
+  .jobs-sidebar:hover {
+    @include Sidebar(491.5px);
+  }
+  .pro-and-ser-sidecar:hover {
+    @include Sidebar(491.5px);
+  }
+  .Categories-Icons-Sidebar {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: rgb(0, 30, 128);
+  }
+}
+
+.Categories-Sidebar {
+  margin-top: 14%;
+  &::after {
+    content: "";
+    display: block;
+    width: 50px;
+    padding-top: 2px;
+    border-bottom: 4px solid blue;
+  }
+  &:hover::after {
+    width: 150px;
+    transition: 0.4s;
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: 1%;
+  left: 91%;
+  font-size: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  &:hover {
+    transition: 0.2s;
+    font-size: 55px;
+    color: white;
+  }
+}
+
+#MySidebar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  background: $main-color;
+  transition: 0.3s;
+  display: block;
+  z-index: 10;
+  overflow-x: hidden;
+  /*Disable horizontal scroll*/
+}
+
+.Social-Media-Sidebar {
+  position: absolute;
+  top: 78%;
+  left: 15%;
+  font-size: 30px;
+  .Social-Medias {
+    margin-right: 110px;
+  }
+  .facebook:hover {
+    color: $facebook-color;
+  }
+  .discord:hover {
+    color: $discord-color;
+  }
+  .twitter:hover {
+    color: $twitter-color;
+  }
+  .instagram:hover {
+    color: $instagram-color;
+  }
+  .youtube:hover {
+    color: $youtube-color;
+  }
+}
+
+.dark-and-light-mode {
+  position: absolute;
+  width: 75px;
+  height: 45px;
+  top: 90%;
+  left: 35%;
+  border-radius: 50%;
+  .dark-light-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(80, 80, 80);
+    border-radius: 34px;
+    transition: 0.5s;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 30px;
+      width: 30px;
+      left: 3px;
+      right: 4px;
+      bottom: 7.5px;
+      background-color: rgb(231, 212, 212);
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+  }
+  input {
+    display: none;
+  }
+  input:checked + .dark-light-slider {
+    background-color: rgb(170, 61, 28);
+  }
+  input:checked + .dark-light-slider:before {
+    transform: translateX(35px);
+    background-color: black;
+  }
+}
+
+.moon {
+  position: absolute;
+  top: 90.5%;
+  left: 45%;
+  font-size: 35px;
+}
+
+.sun {
+  position: absolute;
+  font-size: 35px;
+  top: 90.5%;
+  left: 29%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

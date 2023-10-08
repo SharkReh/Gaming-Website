@@ -1,0 +1,65 @@
+#container {
+  margin: 0;
+  padding: 64px;
+  width: 768px;
+  display: grid;
+  place-items: center;
+}
+#container .accordition {
+  max-width: 800px;
+}
+#container .accordition .accordition-for-item {
+  padding: 24px 54px 0 24px;
+  width: 599px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+#container .accordition button {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 29px;
+  margin-bottom: 10px;
+  margin-top: -5%;
+}
+#container .accordition button:hover {
+  color: red;
+}
+
+.title {
+  text-transform: capitalize;
+  padding-bottom: 16px;
+  font-family: Helvetica;
+  font-size: 29px;
+  color: orange;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.title:hover {
+  opacity: 0.7;
+  padding-left: 10px;
+  transition: 0.3s;
+  color: red;
+}
+.title:not(:hover) {
+  padding-left: 0px;
+  transition: 0.3s;
+}
+
+.text, .icon-minus {
+  display: none;
+  color: orange;
+}
+
+.showing .text, .showing .icon-minus {
+  display: block;
+}
+
+.showing .icon-minus {
+  display: inline;
+}
+
+.showing .icon-plus {
+  display: none;
+}/*# sourceMappingURL=about.css.map */

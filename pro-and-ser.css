@@ -1,0 +1,16 @@
+#video_container {
+    background-image: url('images/Minecraft.jpg');
+    width: 1800px;
+    /* Adjust TV image width */
+    height: 1000px;
+    /* Adjust TV image height */
+    position: relative;
+}
+
+#video-container video {
+    position: absolute;
+    top: 30px;
+    /* Adjust top position */
+    left: 40px;
+    /* Adjust left position */
+}

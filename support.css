@@ -1,0 +1,204 @@
+.Support-headText {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    font-family: Helvetica;
+    color: rgb(241, 94, 118);
+    z-index: 1;
+    font-size: 52px;
+}
+
+body {
+    background-color: rgb(196, 195, 195);
+}
+
+img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 1625px;
+    height: 465px;
+    z-index: 0;
+}
+
+.Supporttext {
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    z-index: 2;
+    background-color: rgb(194, 164, 218);
+    border: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-searchbar {
+    position: absolute;
+    top: 26.3%;
+    left: 42.9%;
+    font-size: 20px;
+    z-index: 3;
+    color: black;
+    cursor: pointer;
+}
+
+.icon-searchbar:hover {
+    opacity: 0.7;
+}
+
+.HappyText {
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    font-family: Helvetica;
+    color: rgb(68, 30, 238);
+}
+
+.icon-shopping {
+    position: absolute;
+    top: 59%;
+    left: 5%;
+    font-size: 80px;
+}
+
+.icon-shopping:hover {
+    opacity: 0.7;
+    padding-top: 20px;
+    transition: 0.2s;
+}
+
+.icon-shopping:not(:hover) {
+    padding-top: 0px;
+    transition: 0.2s;
+}
+
+.icon-shopping:active {
+    color: red;
+}
+
+.shopping-text {
+    position: absolute;
+    top: 66.5%;
+    left: 1%;
+    font-family: Helvetica;
+}
+
+.icon-download {
+    position: absolute;
+    top: 59%;
+    left: 48%;
+    font-size: 80px;
+}
+
+.icon-download:hover {
+    opacity: 0.7;
+    padding-top: 20px;
+    transition: 0.2s;
+}
+
+.icon-download:not(:hover) {
+    padding-top: 0px;
+    transition: 0.2s;
+}
+
+.icon-download:active {
+    color: red;
+}
+
+.download-text {
+    position: absolute;
+    top: 66.5%;
+    left: 44%;
+    font-family: Helvetica;
+}
+
+.icon-user {
+    position: absolute;
+    top: 59%;
+    left: 85%;
+    font-size: 80px;
+}
+
+.icon-user:hover {
+    opacity: 0.7;
+    padding-top: 20px;
+    transition: 0.2s;
+}
+
+.icon-user:not(:hover) {
+    padding-top: 0px;
+    transition: 0.2s;
+}
+
+.icon-user:active {
+    color: red;
+}
+
+.user-text {
+    position: absolute;
+    top: 66.5%;
+    left: 79%;
+    font-family: Helvetica;
+}
+
+.supporttext {
+    font-size: 25px;
+}
+
+.special-question {
+    position: absolute;
+    top: 79%;
+    left: 45%;
+    font-family: Helvetica;
+}
+
+.special-question-text {
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.Discord-Button {
+    position: absolute;
+    top: 91%;
+    left: 47%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(88 101 242);
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+    padding-right: 55px;
+    opacity: 0.8;
+}
+
+.Discord-Button:hover {
+    opacity: 1;
+    padding-inline-start: 25px;
+    transition: 0.5s;
+}
+
+.Discord-Button:not(:hover) {
+    padding-inline-start: 10px;
+    transition: 0.5s;
+}
+
+.discord {
+    position: absolute;
+    top: 25%;
+    left: 74%;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

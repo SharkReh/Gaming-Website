@@ -1,0 +1,109 @@
+hr {
+    border:  2px solid black;
+    width: 110%;
+    height: 5px;
+    position: absolute;
+    top: 13%;
+    left: -2%;
+}
+.shield {
+    position: absolute;
+    top: 3%;
+    left: 83%;
+    font-size: 35px;
+}
+.Payment {
+    position: absolute;
+    top: 0%;
+    left: 87%;
+    border-left: 2px solid black;
+    padding-left: 25px;
+}
+.Encryption {
+    position: absolute;
+    top: 3%;
+    border-left: 2px solid black;
+    padding-left: 25px;
+    left: 87%;
+}
+div {
+    font-family: Helvetica;
+    font-size: 18px;
+}
+.Main {
+    font-size: 35px;
+    font-family: Helvetica;
+    color: orangered;
+}
+.MC {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+.Title {
+    position: absolute;
+    top: 19%;
+    left: 23.5%;
+}
+.Price {
+    position: absolute;
+    top: 21%;
+    left: 39%;
+}
+.trash {
+    position: absolute;
+    top: 28%;
+    left: 23.5%;
+    font-size: 21px;
+    cursor: pointer;
+    border-right: 1px solid;
+    padding-right: 5px;
+}
+.trash:hover {
+    color: red;
+}
+.wishlist {
+    position: absolute;
+    top: 26.3%;
+    left: 25.5%;
+    cursor: pointer;
+}
+.xbox {
+    position: absolute;
+    top: 24.5%;
+    left: 25.5%;
+}
+.Container-for-Cart {
+    font-family: Helvetica;
+    border: 1px solid;
+    width: 700px;
+    height: 110px;
+    margin: 150px;
+    margin-top: 117px;
+    border-radius: 10px;
+    background: gray;
+}
+.Amount {
+    position: absolute;
+    top: 24.5%;
+    left: 35%;
+    border-radius: 10px;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+}
+.TotalTitle {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    font-family: Helvetica;
+}
+.TotalPrice {
+    position: absolute;
+    top: 32.5%;
+    left: 45%;
+    font-family: Helvetica;
+}
